@@ -1,5 +1,5 @@
 :root{
-  --accent:#ff3366;
+  --accent:#FD7C00;
   --bg:#fffdfc;
   --text:#1b1b1b;
   --radius:0.6em;
@@ -19,7 +19,7 @@ body{
   font-size:19px;
 }
 
-.rotate{transform:rotate(-2deg);}
+.rotate{transform:rotate(-1deg);}
 
 h1,h2,h3{line-height:1.15;margin:0 0 .4em;font-weight:700;}
 h1{font-size:clamp(2.4rem,4vw,3.4rem);}
@@ -61,7 +61,7 @@ section{padding:2rem 1.5rem;}
   white-space:nowrap;
 }
 .btn.primary{background:var(--accent);color:#fff;}
-.btn:hover{transform:rotate(-2deg) translateY(-2px);}
+.btn:hover{transform:rotate(-1deg) translateY(-2px);}
 
 .card{
   background:#fff;
@@ -72,7 +72,7 @@ section{padding:2rem 1.5rem;}
 }
 .card p{margin:0;font-size:1rem;}
 .card.link{transition:var(--transition);}
-.card.link:hover{transform:rotate(-2deg) translateY(-2px);}
+.card.link:hover{transform:rotate(-1deg) translateY(-2px);}
 .card.step{font-size:1.05rem;}
 
 .audience p{text-align:center;max-width:var(--max-w);margin:0 auto;}
