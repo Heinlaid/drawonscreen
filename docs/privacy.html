@@ -16,28 +16,47 @@
     <p><strong>Effective Date: May 2025</strong></p>
 
     <h2>Overview</h2>
-    <p><strong>Draw On Screen</strong> is a Chrome extension that lets users draw, highlight, and annotate directly on webpages and capture screenshots. We are committed to protecting your privacy and being transparent about data handling.</p>
+    <p><strong>Draw On Screen</strong> is a Chrome extension that allows users to draw directly on webpages, scroll pages while keeping annotations, and capture screenshots of their work. The extension is designed for a single purpose: enabling visual annotations on live websites.</p>
 
     <h2>Data Collection</h2>
-    <p>This extension does <em>not</em> collect, transmit, or store any personal data, browsing history, or website content externally. All drawings and user data remain in your browser’s storage (<code>chrome.storage.local</code>).</p>
+    <p>This extension <strong>does not collect, transmit, or store any personal data</strong>. All annotations and settings are handled locally in the browser and are not sent to any server.</p>
 
-    <h2>Permissions</h2>
-    <p>The extension requests the following Chrome permissions:</p>
+    <h2>Permissions Justification</h2>
     <ul>
-      <li><strong>activeTab</strong> — inject drawing tools into the current webpage.</li>
-      <li><strong>storage</strong> — save tool settings and drawings in your browser.</li>
-      <li><strong>clipboardWrite</strong> — copy screenshots of annotated pages to clipboard.</li>
+      <li><strong>activeTab</strong> – required to activate drawing functionality on the current webpage when the extension icon is clicked.</li>
+      <li><strong>scripting</strong> – needed to inject scripts that create and manage canvas elements on the webpage, enabling drawing tools.</li>
+      <li><strong>downloads</strong> – necessary to allow users to save screenshots of their annotations to their device.</li>
     </ul>
-    <p>None of these permissions are used to collect or transmit personal data.</p>
 
     <h2>Remote Code</h2>
-    <p>The extension does not execute remote code. All JavaScript and assets are packaged with the extension.</p>
+    <p>This extension <strong>does not use remote code</strong>. All JavaScript, CSS, and assets are packaged within the extension and loaded locally. There are no external <code>&lt;script&gt;</code> references or <code>eval()</code>-based code execution.</p>
+
+    <h2>User Data</h2>
+    <p>Draw On Screen does <strong>not collect any user data</strong>. Specifically, it does not access, collect, or process:</p>
+    <ul>
+      <li>Personally identifiable information</li>
+      <li>Health or financial information</li>
+      <li>Authentication data or credentials</li>
+      <li>Communications or messages</li>
+      <li>Location or IP address</li>
+      <li>Browsing history</li>
+      <li>User activity (such as keystrokes or mouse tracking)</li>
+      <li>Website content</li>
+    </ul>
+
+    <h2>Data Usage Commitments</h2>
+    <p>We certify the following:</p>
+    <ul>
+      <li>We do not sell or transfer user data to third parties, apart from approved use cases (not applicable in this case).</li>
+      <li>We do not use or transfer user data for purposes unrelated to the extension’s single purpose.</li>
+      <li>We do not use or transfer user data to determine creditworthiness or for lending purposes.</li>
+    </ul>
 
     <h2>Changes</h2>
-    <p>We may update this Privacy Policy. Updates will be posted here.</p>
+    <p>This privacy policy may be updated in the future. All changes will be published on this page.</p>
 
     <h2>Contact</h2>
-    <p>For questions, contact <a href="mailto:valmislab.studio@gmail.com">valmislab.studio@gmail.com</a>.</p>
+    <p>If you have questions about this policy, contact us at <a href="mailto:valmislab.studio@gmail.com">valmislab.studio@gmail.com</a>.</p>
   </main>
 
   <footer>
